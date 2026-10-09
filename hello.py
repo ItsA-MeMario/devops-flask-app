@@ -11,5 +11,5 @@ def contact():
 
 @app.route('/about')
 def about():
-	return '<p>My name is Mario</p>'
+	return '<p>My name is Mario</p><br> <a href="/contact">Contact</a></p><p><a href="https://www.python.org/">Python</a> '
 
